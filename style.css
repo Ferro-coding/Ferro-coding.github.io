@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/*NON OTTIMIZZATA PER SCHERMI PICCOLI ONLY DESKTOP*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+nav, .nav-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    list-style: none;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
+
+.content{
+    padding: 50px;
+    background-color: rgb(183, 183, 183);
+    margin: 50px;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.img-profilo{
+    border-radius: 100px;
+}
+
+
+.presentazione{
+    height: 70vh;
+    margin: 10px;
+    background-color: brown;
+    padding: 10%;
+    border-radius: 25px;
+}
+
+.su-di-me{
+    height: 70vh;
+    margin: 10px;
+    background-color: rgb(255, 168, 168);
+    padding: 10%;
+    border-radius: 25px;
+}
+
+.portfolio{
+    height: 70vh;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+    border-radius: 25px;
+}
+.contatti{
+    height: 70vh;
+    height: 200px;
+    margin: 10px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.form{
+    margin: 0 30%;
+    margin-top: 90px;
+}
+
+.input{
+    height: 26px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+label{
+    color: white;
+}
+
+.btn{
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 0 35%;
+    margin-top: 20px;
+}
