@@ -82,11 +82,17 @@ a.btn-cv:hover{
     background-color: rgb(247, 232, 255);
 }
 
+.btn-container{
+    display: flex;
+    gap: 10px;
+}
+
+
 
 /*ABOUT ME*/
 
 .about-me{
-    height: 95vh;
+    height: fit-content;
     padding: 25px;
 }
 
@@ -115,13 +121,42 @@ a.btn-cv:hover{
 }
 
 
+.paragraph{
+    width: 70%;
+    margin-bottom: 0;
+}
+
+
+
+.education-card{
+    width: 70%;
+    border: 2px solid rgb(26, 26, 26);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
 /*PORTFOLIO*/
 
 .portfolio{
     height: 95vh;
 }
 
-.btn-container{
-    display: flex;
-    gap: 10px;
+
+/*CONTATTAMI*/
+
+.contattami{
+    height: 95vh;
+}
+
+
+/*FOOTER*/
+
+footer{
+    height: 20vh;
+}
+
+.footer-title{
+    padding: 70px 0;
+  text-align: center;
 }
