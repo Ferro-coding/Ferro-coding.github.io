@@ -104,8 +104,8 @@ a.btn-cv:hover{
 .card{
     margin-top: 5%;
     width: 400px;
-    height: 500px;
-    border: 2px solid black;
+    height: fit-content;
+    border: 4px solid black;
     border-radius: 25px;
 }
 
@@ -130,10 +130,11 @@ a.btn-cv:hover{
 
 .education-card{
     width: 70%;
-    border: 2px solid rgb(26, 26, 26);
+    border: 3px solid rgb(26, 26, 26);
+    background-color: rgb(173, 96, 255);
     padding: 20px;
     border-radius: 15px;
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*PORTFOLIO*/
