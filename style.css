@@ -54,8 +54,13 @@ a{
 }
 
 .name{
+    margin-top: 3px;
     font-size: 43px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    margin-top: 0;
 }
 
 .center{
@@ -81,5 +86,30 @@ a.btn-cv:hover{
 /*ABOUT ME*/
 
 .about-me{
-    height: 100vh;
+    height: 95vh;
+    padding: 25px;
+}
+
+.containter-card{
+    display: flex;
+    margin: 0 300px;
+}
+
+.card{
+    margin-top: 5%;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.title-about{
+    margin-top: 0;
+    font-size: 43px;
+    margin-bottom: 0;
+}
+
+.title-experience{
+    margin-top: 10px;
+    font-size: 33px;
 }
