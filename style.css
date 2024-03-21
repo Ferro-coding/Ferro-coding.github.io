@@ -113,3 +113,15 @@ a.btn-cv:hover{
     margin-top: 10px;
     font-size: 33px;
 }
+
+
+/*PORTFOLIO*/
+
+.portfolio{
+    height: 95vh;
+}
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+}
